@@ -6,7 +6,7 @@ from datetime import datetime, timedelta
 
 from f import apply_derived_features
 
-TICKERS = ["U", "EA", "RBLX", "GME", "MSFT", "TTWO", "MYPS", "SONY", "GAME"] 
+TICKERS = ["SONY", "EA", "NTES", "NFLX", "DIS", "CMSA", "SPOT", "LYV", "WMG"] 
 FILE_NAME = "stock_data.parquet"
 
 def parse_arguments():
