@@ -9,6 +9,8 @@ from f import apply_derived_features
 TICKERS = ["SONY", "EA", "NTES", "NFLX", "DIS", "CMSA", "SPOT", "LYV", "WMG"] 
 FILE_NAME = "stock_data.parquet"
 
+INCLUDE_AFTERMARKET = False
+
 def parse_arguments():
     parser = argparse.ArgumentParser(description="Fetch and store NASDAQ stock data.")
     
@@ -59,7 +61,7 @@ def update_stock_data(start_str, end_str, full_refresh):
             print("No existing data found. Creating new file.")
 
     print(f"Downloading data from {yf_start} to {end_dt.strftime('%Y-%m-%d')}...")
-    raw_data = yf.download(TICKERS, start=yf_start, end=yf_end)
+    raw_data = yf.download(TICKERS, start=yf_start, end=yf_end, prepost=INCLUDE_AFTERMARKET)
 
     if raw_data.empty:
         print("No trading data found for this range. Markets may not be open, but I bet Polymarket is.")
