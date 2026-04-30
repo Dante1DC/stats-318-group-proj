@@ -1,0 +1,33 @@
+BusinessType,Client,PitchType,Rating
+Agriculture,1,No PowerPoint,55
+Agriculture,2,PowerPoint,68
+Agriculture,3,Pamphlet,78
+Agriculture,4,Just Talking,45
+Agriculture,5,No PowerPoint,56
+Agriculture,6,PowerPoint,67
+Agriculture,7,Pamphlet,77
+Agriculture,8,Just Talking,46
+Finance,9,No PowerPoint,70
+Finance,10,PowerPoint,83
+Finance,11,Pamphlet,93
+Finance,12,Just Talking,60
+Finance,13,No PowerPoint,71
+Finance,14,PowerPoint,82
+Finance,15,Pamphlet,92
+Finance,16,Just Talking,61
+Tourism,17,No PowerPoint,62
+Tourism,18,PowerPoint,75
+Tourism,19,Pamphlet,85
+Tourism,20,Just Talking,50
+Tourism,21,No PowerPoint,63
+Tourism,22,PowerPoint,76
+Tourism,23,Pamphlet,86
+Tourism,24,Just Talking,51
+Grocery,25,No PowerPoint,65
+Grocery,26,PowerPoint,78
+Grocery,27,Pamphlet,88
+Grocery,28,Just Talking,53
+Grocery,29,No PowerPoint,66
+Grocery,30,PowerPoint,79
+Grocery,31,Pamphlet,89
+Grocery,32,Just Talking,54
