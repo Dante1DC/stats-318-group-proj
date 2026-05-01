@@ -1,2 +1,3 @@
 .venv/
 stock_data.parquet
+.Rproj.user
