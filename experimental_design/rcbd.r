@@ -5,12 +5,13 @@ res.rcbd <- aov(Rating ~ PitchType + BusinessType, data = rcbd_data)
 summary(res.rcbd)
 
 tukey_results <- TukeyHSD(res.rcbd)
+tukey_results
 
 # CRD
 res.crd <- aov(Rating ~ PitchType, data = rcbd_data)
 summary(res.crd)
 
-TukeyHSD(res.crd)
+# TukeyHSD(res.crd)
 
 # Visualizations
 ggplot(rcbd_data, aes(x = PitchType, y = Rating, group = BusinessType, color = BusinessType)) +
