@@ -24,6 +24,8 @@ Boom! Now you have data. You'll use this in all of the R files which reference s
 -> `-s`: Specify a start date. By default it's 01-01-2026.
 -> `-e`: Specify an end date. By default it's whatever today's date is. 
 
+Finally, go ahead and use this to pull different stocks if you'd like to try our analysis on different tickers. Alter the `TICKERS` constant with whatever stock ticker you want.
+
 ## `./bs`
 This folder contains our Basic Statistical (BS) Analysis, done in R.
 
