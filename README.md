@@ -37,3 +37,5 @@ This folder contains the code we used for our Experimental Design section.
 ## `./one_way_anova`
 This folder contains the code we used to implement One-Way Anova. 
 
+### Further Considerations
+In the `f.py` file, you'll see a function called `apply_derived_features`. This does what it sounds like: if you pass it any row-wise formula, it'll apply it to the stock dataset next time you fetch new data. Use this to include any derivative feature you want to the data. You'll notice this is where the intraday action features are calculated: use that as a reference. 
